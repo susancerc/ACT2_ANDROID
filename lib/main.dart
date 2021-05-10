@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(VeterinariaApp());
+void main() => runApp(SusiApp());
 
-class VeterinariaApp extends StatelessWidget {
+class SusiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,7 +22,7 @@ class VeterinariaApp extends StatelessWidget {
 
         home: Inicio()); //cierre de material app
   } //fin widget context
-} //fin VeterinariaApp class
+} //fin SusiApp class
 
 class Empresa extends StatelessWidget {
   @override
